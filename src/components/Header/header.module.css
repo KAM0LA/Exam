@@ -1,0 +1,36 @@
+header {
+  background: var(--black, #232536);
+  padding: 10px;
+}
+.header,
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.header__logo h1 {
+  color: white;
+  font-size: 24px;
+}
+.header__menu {
+  gap: 83px;
+}
+.items {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--light, #fff);
+}
+.menu__items {
+  display: flex;
+  gap: 24px;
+}
+.header__btn a {
+  padding: 16px 48px;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black, #232536);
+  background: var(--light, #fff);
+}

@@ -1,0 +1,33 @@
+footer {
+  background: var(--black, #232536);
+}
+.footer__license {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.license {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.license p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  color: var(--light, #fff);
+}
+.site__footer__social picture {
+  display: flex;
+  gap: 26.67px;
+}
+.site__footer__social picture img {
+  width: 24px;
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+.site__footer__social picture img:hover {
+  filter: grayscale(0);
+  transition: 0.2s;
+}

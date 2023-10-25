@@ -1,0 +1,23 @@
+.profile__settings button {
+  margin: 0 auto;
+  padding: 16px 0;
+  width: 500px;
+  background: var(--yellow, #ffd050);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--black, #232536);
+}
+.doubleProfileSettings h1 {
+  font-size: 40px !important;
+  text-align: center;
+}
+.doubleProfileSettings button {
+  width: 100%;
+}
+.profile__image {
+  text-align: center;
+}
+.profile__settings {
+  padding: 30px 0;
+}
